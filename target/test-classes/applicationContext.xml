@@ -23,7 +23,7 @@
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="configLocation" value="classpath:org/gmo_pg/mybatis-config.xml" />
+		<property name="configLocation" value="classpath:/mybatis-config.xml" />
 	</bean>
 
 	<bean class="org.mybatis.spring.SqlSessionTemplate">
@@ -31,7 +31,7 @@
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.gmo_pg.g_pay.core.mybatis.mapper"></property>
+		<property name="basePackage" value="com.github.ykinos.mybatis.mapper"></property>
 	</bean>
 
 </beans>

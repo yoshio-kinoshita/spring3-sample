@@ -6,7 +6,7 @@
     <jdbcConnection driverClass="org.hsqldb.jdbc.JDBCDriver" connectionURL="jdbc:hsqldb:hsql://localhost/spring3-sample" userId="SA" password="" />
     <javaModelGenerator targetPackage="com.github.yoshio.mybatis.domain" targetProject="spring3-sample" />
     <sqlMapGenerator targetPackage="com.github.yoshio.mybatis.mapper" targetProject="spring3-sample" />
-    <javaClientGenerator targetPackage="com.github.yoshio.mapper" targetProject="spring3-sample" type="XMLMAPPER" />
+    <javaClientGenerator targetPackage="com.github.yoshio.mybatis.mapper" targetProject="spring3-sample" type="XMLMAPPER" />
     <table schema="PUBLIC" tableName="%"/>
   </context>
 </generatorConfiguration>

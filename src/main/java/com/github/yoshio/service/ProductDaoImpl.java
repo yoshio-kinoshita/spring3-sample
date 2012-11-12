@@ -1,4 +1,4 @@
-package com.github.yoshio;
+package com.github.yoshio.service;
 
 import org.springframework.stereotype.Repository;
 

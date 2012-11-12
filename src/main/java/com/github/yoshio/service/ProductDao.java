@@ -1,4 +1,4 @@
-package com.github.yoshio;
+package com.github.yoshio.service;
 
 public interface ProductDao {
 
